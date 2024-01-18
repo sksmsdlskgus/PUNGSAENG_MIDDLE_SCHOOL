@@ -725,46 +725,35 @@ header {
 	}
 
     .headA {
-        -js-display: flex;
-		display: -ms-flexbox;
-		display: -webkit-box;
-		display: -webkit-flex;
-		display: flex;
+        display: flex;
         align-items: center;
+        justify-content: center;
         text-decoration: none;
         color: #fff;
         font-family: 'Montserrat', sans-serif;
         font-size: 14px;
         height: 35px;
-        
         background-color: #5D9AB2;
         padding: 20px 0px;
-        
-    
     }
-    
+
     .headA img {
-        -js-display: flex;
-		display: -ms-flexbox;
-		display: -webkit-box;
-		display: -webkit-flex;
-		display: flex;
         width: 150px;
         height: auto;
         display: block;
-        opacity: 0.9; 
+        opacity: 0.9;
     }
-    
+
     .headA span {
-        -js-display: flex;
-		display: -ms-flexbox;
-		display: -webkit-box;
-		display: -webkit-flex;
-		display: flex;
         padding-top: 30px;
         margin-left: 8px;
         font-weight: bold;
         opacity: 0.4;
+    }
+
+    .headA > img,
+    .headA > span {
+        flex-shrink: 0;
     }
 
 
