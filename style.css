@@ -725,6 +725,32 @@ header {
 		margin-right: auto;
 	}
 
+    .headA {
+        -js-display: flex;
+		display: -ms-flexbox;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+    
+    }
+    
+    .headA img {
+        -js-display: flex;
+		display: -ms-flexbox;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+    }
+    
+    .headA span {
+        -js-display: flex;
+		display: -ms-flexbox;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+    }
+
+
 	.headB ul {
 		-js-display: flex;
 		display: -ms-flexbox;
