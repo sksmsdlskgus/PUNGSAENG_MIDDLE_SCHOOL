@@ -725,6 +725,36 @@ header {
 		margin-right: auto;
 	}
 
+
+	.headB ul {
+		-js-display: flex;
+		display: -ms-flexbox;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+	}
+}
+
+
+/* 헤더C: 토글 버튼 */
+
+@media (max-width: 767px) {
+	/* 작은 화면 전용 설정 */
+	header .container-small {
+		-js-display: flex;
+		display: -ms-flexbox;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-ms-flex-align: center;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		align-items: center;
+		-ms-flex-pack: justify;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		justify-content: space-between;
+	}
     .headA {
         -js-display: flex;
 		display: -ms-flexbox;
@@ -769,37 +799,6 @@ header {
         opacity: 0.4;
     }
 
-
-	.headB ul {
-		-js-display: flex;
-		display: -ms-flexbox;
-		display: -webkit-box;
-		display: -webkit-flex;
-		display: flex;
-	}
-}
-
-
-/* 헤더C: 토글 버튼 */
-
-@media (max-width: 767px) {
-	/* 작은 화면 전용 설정 */
-	header .container-small {
-		-js-display: flex;
-		display: -ms-flexbox;
-		display: -webkit-box;
-		display: -webkit-flex;
-		display: flex;
-		-ms-flex-align: center;
-		-webkit-box-align: center;
-		-webkit-align-items: center;
-		align-items: center;
-		-ms-flex-pack: justify;
-		-webkit-box-pack: justify;
-		-webkit-justify-content: space-between;
-		justify-content: space-between;
-	}
-
 	.headC {
 		margin-right: 10px;
 		padding: 0;
@@ -823,6 +822,10 @@ header {
 @media (min-width: 768px) {
 	/* 큰 화면 전용 설정 */
 	.headC {
+		display: none;
+	}
+
+    .headA {
 		display: none;
 	}
 
