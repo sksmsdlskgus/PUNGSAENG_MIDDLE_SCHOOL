@@ -235,6 +235,10 @@ body {
 	padding: 20px;
 }
 
+.conC .text2 {
+	padding: 20px;
+}
+
 .conC h2 {
 	margin-top: 0;
 	margin-bottom: 10px;
@@ -295,6 +299,11 @@ body {
     padding-bottom: 10px;
 }
 .conC .text2 {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    width: 100%;
     padding: 40px;
 }
 
@@ -336,6 +345,14 @@ body {
 /* 콘텐츠D: 개요(이미지 + 글자 : 반대로 배치하기) */
 .conD .container {
 	padding-top: 2px;
+}
+
+.conD .text {
+	padding: 20px;
+}
+
+.conD .text2 {
+	padding: 20px;
 }
 
 .conD h2 {
@@ -411,6 +428,11 @@ body {
 	}
 
     .conD .text2 {
+        -ms-flex: 1;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        flex: 1;
+        width: 100%;
         padding-right: 40px;
         padding-left: 10px;
     }
