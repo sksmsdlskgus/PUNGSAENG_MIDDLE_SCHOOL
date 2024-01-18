@@ -1,42 +1,279 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
-    <title>풍생중학교 웹 코딩 교육봉사 자료</title>
+<meta charset="UTF-8">
+<title>풍생중학교 웹 코딩 교육봉사 자료</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="icon" href="image/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="style.css">
+
+<style>
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}
+</style>
+
+<script src="https://use.fontawesome.com/926fe18a63.js"></script>
+
+<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script>
+$(function(){
+	$(".headC").click(function(){
+		$(".headB").slideToggle();
+	});
+});
+</script>
 </head>
-
 <body>
-    <div class="intro_bg">
-        <div class="main_text1">
-            <h2> 모두들 너무 수고 많았어요 🏫❤️ </h2>
-            <div class="contents1">아래 글씨 클릭하면 친구들이 직접 개발한 페이지로 이동합니다 :)</div><br>
-            <div class="contents2">
-                <ul>
-                    <li><a href="Taehoon.html">엄태훈 Make Web_Page </a></li><br>
-            <li><a href="MINJAE.html">강민재 Make Web_Page</a></li><br>
-            <li><a href="Donghyeon.html">김동현 Make Web_Page</a></li><br>
-            <li><a href="San.html">김산 Make Web_Page</a></li><br>
-            <li><a href="Soyeon.html">김소연 Make Web_Page</a></li><br>
-            <li><a href="MinYoung.html">나민영 Make Web_Page</a></li><br>
-            <li><a href="Jisung.html">박지성 Make Web_Page</a></li><br>
-            <li><a href="Minjun.html">서민준 Make Web_Page</a></li><br>
-            <li><a href="Sebin.html">이세빈 Make Web_Page</a></li><br>
-            <li><a href="Tae-jun.html">정태준 Make Web_Page</a></li><br>
-                </ul>
-            </div>
-        </div>
-    </div>
 
-    <div class="footer">
-        <div>
-            🩷 을지대학교 멋쟁이사자처럼 11기 (이나현, 박종현, 이정엽, 이경준) ♾️ 풍생중학교 🩷
-        </div>
-    </div>
+<header>
+<div class="container">
+	<div class="container-small">
+		<a href="index.html" class="headA">
+			<img src="image/로고.png" alt="PUNGSAENG & EULJI Logo">
+            <span>&nbspWeb_Coding_Education 🏫</span>
+        </a>
+        <button type="button" class="headC">
+            <span class="fa fa-bars" title="MENU"></span>
+        </button>
+	</div>
+
+	<nav class="headB">
+	</nav>
+</div>
+</header>
+
+<section class="conA compact">
+<div class="container">
+	   <h1>PUNGSAENG & EULJI</h1>
+		
+</div>
+</section>
+
+
+<section class="listB">
+<div class="container">
+	<article>
+	<a href="MINJAE.html">
+		<div class="photo" style="background-image: url(image/민재p.png);"></div>
+		<div class="text">
+			<h2>강민재 Make Web_Page</h2>
+			<p>내 이름은 강민재!
+				마술사를 꿈꾸는 학생</p>
+		</div>
+	</a>
+	</article>
+
+	<article>
+	<a href="Donghyeon.html">
+		<div class="photo" style="background-image: url(image/동현.png);"></div>
+		<div class="text">
+			<h2>김동현 Make Web_Page</h2>
+			<p>김동현.. 그는 누구인가..?
+				수학자를 꿈꾸는 학생</p>
+		</div>
+	</a>
+	</article>
+
+	<article>
+	<a href="San.html">
+		<div class="photo" style="background-image: url(image/산p.png);"></div>
+		<div class="text">
+			<h2>김산 Make Web_Page</h2>
+			<p>김산.. 그는 누구인가..?
+				그는 김산교의 교주다</p>
+		</div>
+	</a>
+	</article>
+
+	<article>
+	<a href="Soyeon.html">
+		<div class="photo" style="background-image: url(image/소연p.png);"></div>
+		<div class="text">
+			<h2>김소연 Make Web_Page</h2>
+			<p>김소연.. 그녀는 누구인가..?
+				신기한게 많은 사람이긴하지</p>
+		</div>
+	</a>
+	</article>
+
+	<article>
+	<a href="MinYoung.html">
+		<div class="photo" style="background-image: url(image/민영p.png);"></div>
+		<div class="text">
+			<h2>나민영 Make Web_Page</h2>
+			<p>최윤호.. 그는 누구인가..?
+				최고의 롤 중독자</p>
+		</div>
+	</a>
+	</article>
+
+	<article>
+	<a href="Jisung.html">
+		<div class="photo" style="background-image: url(image/지성p.png);"></div>
+		<div class="text">
+			<h2>박지성 Make Web_Page</h2>
+			<p>첼시 그는 누구인가..?
+				맨유와 경쟁하는 그 팀</p>
+		</div>
+	</a>
+	</article>
+
+	<article>
+	<a href="Minjun.html">
+		<div class="photo" style="background-image: url(image/민준p.png);"></div>
+		<div class="text">
+			<h2>서민준 Make Web_Page</h2>
+			<p>안정환... 그는 누구인가
+				2002년에 월드컵일때 골울넣어던 선수이다</p>
+		</div>
+	</a>
+	</article>
+
+	<article>
+	<a href="Taehoon.html">
+		<div class="photo" style="background-image: url(image/태훈p.png);"></div>
+		<div class="text">
+			<h2>엄태훈 Make Web_Page</h2>
+			<p>저는요, 엄태훈이라고 하고요
+				밀덕이고요,Band 실리카겔도 좋아하고 올해에 3학년이 됩니다.</p>
+		</div>
+	</a>
+	</article>
+
+	<article>
+	<a href="Sebin.html">
+		<div class="photo" style="background-image: url(image/세빈.png);"></div>
+		<div class="text">
+			<h2>이세빈 Make Web_Page</h2>
+			<p>이세빈.. 그녀는 누구인가..?
+				취미가 많은 사람😏</p>
+		</div>
+	</a>
+	</article>
+
+	<article>
+	<a href="Tae-jun.html">
+		<div class="photo" style="background-image: url(image/태준p.png);"></div>
+		<div class="text">
+			<h2>정태준 Make Web_Page</h2>
+			<p>나는야 정태준
+				언제나 숙제는 당일날하는 성격을 가진 사람</p>
+		</div>
+	</a>
+	</article>
+
+</div>
+</section>
+
+<section class="conC">
+	<div class="container">
+	<div class="photo"></div>
+	<div class="container">
+		<div class="text2">
+			<h2>&nbsp 👩‍💻 이나현 Teacher :</h2>
+			<p>라이프로그에서는 귀찮은 설정과 데이터 관리를 따로 하지 않아도 됩니다. 다른 애플리케이션과의 연동도 버튼 하나만 누르면 됩니다.</p>
+		</div></div></div>
+		<div class="container">
+		<div class="text">
+			<h2>&nbsp 🧑‍💻 박종현 Teacher :</h2>
+			<p>우리 자랑스러운 풍생중 후배들이자 학생 여러분, 일주일 동안 코딩이 생소하고, 
+				또 새로운 영역을 경험에 앞서 많은 기대와 또 걱정을 했었겠지만, 
+				우리 선생님들이 여러분들을 코딩의 세계로 만든 길이 가시밭길이 아닌 꽃길이 되었기를 바랄 뿐입니다. 
+				선생님이 여러분들에게 코딩의 흥미와 관심을 잘 심어줬을지는 모르겠습니다만, 여러분들이 직접 사이트를 만든 것이,
+				 코딩하면서 가장 재미와 보람이 느껴졌기를 바랍니다. 여러분들이 나중에, 훌륭한 프로그램 개발자가 되어있거나, 
+				 다른 직업에서 훌륭한 사람들이 되어 코딩 수업이 여러분들의 향후 삶에 좋은 영향이 있다면, 선생님은 그것으로 만족하려 합니다. 
+				 1학년 친구들은 내년에 또 들을 수 있을 것이고, 2학년 친구들은 나중에 3학년이 되어 이 수업을 또 들을 기회가 있다면, 
+				 우리 4명의 선생님들은 아니지만, 다른 훌륭한 선생님들과 연결하여 여러분들에게 코딩의 높은 벽을 같이 넘을 수 있도록 사다리가 될 수 있게, 
+				 선생님이 안 보이는 곳에서 많이 노력할 것을 약속할게요. 항상 선생님이기 이전에, 우리 후배님들 항상 응원하고, 새해에 복 많이 받고, 
+				 공부도 중요하지만, 건강이 항상 최고라는 것! 선생님들과 별일 없이 행복한 학교생활하길 바라면서, 선생님은 항상 여러분들을 응원합니다. 
+				 -풍생중 48회 졸업생이자, 여러분들을 항상 응원하는 박종현 선생님이 :)</p>
+		</div>
+	</div>
+</section>
+	
+	
+	<section class="conD">
+	<div class="container">
+		<div class="photo"></div>
+			<div class="container">
+				<div class="text2">
+					<h2>&nbsp 🧑‍💻 이경준 Teacher :</h2>
+					<p>라이프로그에서는 귀찮은 설정과 데이터 관리를 따로 하지 않아도 됩니다. 다른 애플리케이션과의 연동도 버튼 하나만 누르면 됩니다.</p>
+				</div></div></div>
+				<div class="container">
+					<div class="text">
+			<h2>&nbsp 🧑‍💻 이정엽 Teacher :</h2>
+			<p>6일동안 끝까지 남아준 친구들한테 일단 너무 고마워요... 
+				선생님들이 아주 많은 걸 알려주진 않았지만 컴퓨터와 아주 잠깐 친해질 기회는 주었다고 생각해요 ㅎㅎ.. 
+				또 여러분이 자라고 나서 진로를 선택할 때 이번 수업이 도움이 되었으면 좋겠습니다! 또는 굳이 컴퓨터를 선택하지 않아도 
+				살아가며 어느 순간 여러분의 판단에 조금이나마 도움이 되었으면 좋겠습니다. 선생님은 올해 2년차 봉사를 하고 있는데 
+				이번에 여러분이 되게 소중한 추억으로 남을 것 같아요!! 부디 여러분에게도 소중한 추억이였으면 좋겠고 
+				앞으로도 여러분들을 먼발치에서나마 응원하고 있겠습니다!!!! 고맙습니다 >_< </p>
+		</div>
+	</div>
+	</section>
+
+
+<footer>
+	<div class="container">
+	
+		<div class="footA">
+			<h2>PUNGSAENG MIDDLE SCHOOL</h2>
+			<p>
+			2024.01.09 ~ 2024.01.16<br>
+			<a href="#">을지대학교 웹 코딩 교육봉사</a>
+			</p>
+	
+			
+		</div>
+	
+		<nav class="footB">
+			<div>
+				<h3>Teacher</h3>
+				<ul>
+					<li><a href="#">이나현</a></li>
+					<li><a href="#">박종현</a></li>
+					<li><a href="#">이정엽</a></li>
+					<li><a href="#">이경준</a></li>
+				</ul>
+			</div>
+	
+			<div>
+				<h3>Eulji University</h3>
+				<ul>
+					<li><a href="#">의료IT학과 4학년</a></li>
+					<li><a href="#">의료IT학과 4학년</a></li>
+					<li><a href="#">의료IT학과 4학년</a></li>
+					<li><a href="#">의료IT학과 3학년</a></li>
+				</ul>
+			</div>
+	
+			<div>
+				<h3>CONTENTS</h3>
+				<ul>
+					<li><a href="#">HTML & CSS</a></li>
+				</ul>
+			</div>
+		</nav>
+	
+		<div class="footC"><br><br>
+			© 을지대학교 멋쟁이사자처럼 11기 ♾️ 풍생중학교
+		</div>
+	
+	</div>
+	</footer>
+
+
 </body>
-
 </html>
+
+
