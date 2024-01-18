@@ -731,6 +731,16 @@ header {
 		display: -webkit-box;
 		display: -webkit-flex;
 		display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        height: 35px;
+        
+        background-color: #5D9AB2;
+        padding: 20px 0px;
+        
     
     }
     
