@@ -379,7 +379,7 @@ body {
 	min-height: 300px;
 	background-image: url(image/교육3.png);
     border-radius: 10px; 
-    box-shadow: 0 0 20px rgba(54, 54, 54, 0.5); 
+    box-shadow: 0 0 30px rgba(4, 73, 96, 0.5); 
 	background-position: center;
 	background-size: cover;
 }
@@ -412,6 +412,7 @@ body {
 
     .conD .text2 {
         padding-right: 40px;
+        padding-left: 10px;
     }
 	.conD .text {
 		-ms-flex: 1;
@@ -491,6 +492,15 @@ footer .container {
 	font-size: 30px;
 	letter-spacing: 0.2em;
 }
+
+.footA .seb {
+	margin-top: 0;
+	margin-bottom: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+	letter-spacing: 0.2em;
+}
+
 
 .footA p {
 	margin-top: 0;
@@ -604,6 +614,7 @@ footer .container {
 header {
 	position: absolute;
 	top: 0;
+    margin-left: 0; 
 	left: 0;
 	z-index: 100;
 	width: 100%;
@@ -623,22 +634,27 @@ header {
     text-decoration: none;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
-    height: 50px;
+    font-size: 14px;
+    height: 35px;
+    
     background-color: #5D9AB2;
-    padding: 9px 10px;
-    margin-left: 0; 
+    padding: 20px 0px;
+
 }
 
 .headA img {
     width: 150px;
     height: auto;
     display: block;
-    margin-left: 8px; 
+    margin-left: -80px;
+    opacity: 0.9; 
 }
 
 .headA span {
+    padding-top: 30px;
     margin-left: 8px;
+    font-weight: bold;
+    opacity: 0.4;
 }
 
 .headA > img,
