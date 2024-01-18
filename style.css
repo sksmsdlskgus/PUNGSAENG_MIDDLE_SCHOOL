@@ -734,10 +734,11 @@ header {
         font-size: 14px;
         height: 35px;
         background-color: #5D9AB2;
-        padding: 20px 0px;
+        padding: 23px 0px;
     }
 
     .headA img {
+        padding-left: 10px;
         width: 150px;
         height: auto;
         display: block;
