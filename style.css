@@ -725,6 +725,50 @@ header {
 		margin-right: auto;
 	}
 
+    .headA {
+        -js-display: flex;
+		display: -ms-flexbox;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        height: 35px;
+        
+        background-color: #5D9AB2;
+        padding: 20px 0px;
+        
+    
+    }
+    
+    .headA img {
+        -js-display: flex;
+		display: -ms-flexbox;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+        width: 150px;
+        height: auto;
+        display: block;
+        margin-left: 80px;
+        opacity: 0.9; 
+    }
+    
+    .headA span {
+        -js-display: flex;
+		display: -ms-flexbox;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+        padding-top: 30px;
+        margin-left: 8px;
+        font-weight: bold;
+        opacity: 0.4;
+    }
+
 
 	.headB ul {
 		-js-display: flex;
@@ -755,49 +799,6 @@ header {
 		-webkit-justify-content: space-between;
 		justify-content: space-between;
 	}
-    .headA {
-        -js-display: flex;
-		display: -ms-flexbox;
-		display: -webkit-box;
-		display: -webkit-flex;
-		display: flex;
-        align-items: center;
-        text-decoration: none;
-        color: #fff;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 14px;
-        height: 35px;
-        
-        background-color: #5D9AB2;
-        padding: 20px 0px;
-        
-    
-    }
-    
-    .headA img {
-        -js-display: flex;
-		display: -ms-flexbox;
-		display: -webkit-box;
-		display: -webkit-flex;
-		display: flex;
-        width: 150px;
-        height: auto;
-        display: block;
-        margin-left: -80px;
-        opacity: 0.9; 
-    }
-    
-    .headA span {
-        -js-display: flex;
-		display: -ms-flexbox;
-		display: -webkit-box;
-		display: -webkit-flex;
-		display: flex;
-        padding-top: 30px;
-        margin-left: 8px;
-        font-weight: bold;
-        opacity: 0.4;
-    }
 
 	.headC {
 		margin-right: 10px;
@@ -824,10 +825,7 @@ header {
 	.headC {
 		display: none;
 	}
-
-    .headA {
-		display: none;
-	}
+    
 
 	.headB {
 		display: block !important;
